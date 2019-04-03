@@ -63,6 +63,8 @@ GEM
     factory_bot (5.0.2)
       activesupport (>= 4.2.0)
     ffi (1.10.0)
+    fixy (0.0.8)
+      rake
     globalid (0.4.2)
       activesupport (>= 4.2.0)
     i18n (1.6.0)
@@ -188,12 +190,12 @@ PLATFORMS
 DEPENDENCIES
   capybara
   factory_bot
+  fixy
   jquery-rails
   launchy
   listen
   nokogirl
   pg (~> 1.0)
-  pry
   pry-rails
   rails (~> 5.2.0)
   rspec-rails (~> 3.7)
